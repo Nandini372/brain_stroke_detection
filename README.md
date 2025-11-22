@@ -25,32 +25,6 @@ Personalized prediction based on user input
 Visualizations (confusion matrix, feature importance, SHAP summary plot)
 
 
-
----
-
-📂 Folder Structure
-
-You can use the following structure in your repository:
-
-brain-stroke-detection/
-│
-├── data/
-│   └── Stroke.csv
-│
-├── notebook/
-│   └── brain_stroke_detection.ipynb
-│
-├── outputs/
-│   ├── confusion_matrix.png
-│   ├── shap_summary.png
-│   ├── feature_importance.png
-│   └── sample_prediction.png
-│
-├── report/
-│   └── brain stroke detection.pdf
-│
-├── requirements.txt
-└── README.md
 ---
 
 🛠 How to Run the Project
