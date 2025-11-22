@@ -51,8 +51,6 @@ brain-stroke-detection/
 │
 ├── requirements.txt
 └── README.md
-
-
 ---
 
 🛠 How to Run the Project
