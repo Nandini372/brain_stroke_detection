@@ -1,121 +1,55 @@
-Brain Stroke Detection Using Hybrid Machine Learning Model
+# Brain Stroke Detection Using Hybrid Machine Learning Model
 
-📌 Project Overview
+## Overview
 
-This project aims to predict the risk of brain stroke using a hybrid Machine Learning model that combines Random Forest, Gradient Boosting, and Logistic Regression using a stacking ensemble approach.
+This project predicts the risk of brain stroke using a hybrid machine learning model based on a stacking ensemble of Random Forest, Gradient Boosting, and Logistic Regression.
 
-It also uses Explainable AI (SHAP) to understand which factors contribute most to the prediction.
-An interactive input system allows users to enter their health details and get stroke risk percentage.
+The model uses SMOTE to address class imbalance and SHAP for model interpretability, helping identify the key factors influencing stroke risk predictions.
 
+## Features
 
----
+* Hybrid ensemble learning approach
+* Stroke risk prediction from patient health data
+* SMOTE for handling imbalanced datasets
+* Feature engineering for improved performance
+* Explainable AI using SHAP
+* Personalized risk prediction based on user inputs
 
-🧠 Features
+## Technologies Used
 
-Hybrid ML model for improved accuracy
+* Python
+* Scikit-learn
+* SHAP
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
 
-Class imbalance handled using SMOTE
+## Model Performance
 
-Newly engineered features (glucose–BMI ratio, risk index, age-hypertension interaction)
+| Metric    | Score     |
+| --------- | --------- |
+| Accuracy  | 93–95%    |
+| Precision | 90–93%    |
+| Recall    | 92–95%    |
+| ROC-AUC   | 0.95–0.97 |
 
-Explainable AI using SHAP
+## How to Run
 
-Personalized prediction based on user input
+1. Install dependencies:
 
-Visualizations (confusion matrix, feature importance, SHAP summary plot)
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+2. Place `Stroke.csv` in the project directory.
 
----
+3. Open and run `brain_stroke_detection.ipynb`.
 
-🛠 How to Run the Project
+## Future Improvements
 
-1. Install required libraries
-
-Run:
-
-pip install -r requirements.txt
-
-2. Open the Jupyter Notebook
-
-brain_stroke_detection.ipynb
-
-3. Add the dataset
-
-Place Stroke.csv inside the data folder (or same directory as notebook).
-
-4. Run all cells
-
-The notebook will:
-
-Train the model
-
-Show evaluation metrics
-
-Display plots
-
-Allow user input for prediction
-
-
-
----
-
-📊 Model Performance
-
-Typical performance after training:
-
-Metric	Score
-
-Accuracy	93–95%
-Precision	90–93%
-Recall	92–95%
-F1 Score	91–94%
-ROC-AUC	0.95–0.97
-
-
-
----
-
-📡 User Input Example
-
-The notebook will ask the user for inputs like:
-
-Gender (0,1,2):
-Age:
-Hypertension:
-Heart Disease:
-Average Glucose Level:
-BMI:
-Smoking Status:
-...
-
-Then it outputs:
-
-Predicted Stroke Risk Probability: 78.45%
-⚠ High Risk — Medical consultation recommended
-
-
----
-
-📘 Report
-
-The complete detailed project report is available in the report/ folder.
-
-
----
-
-🧩 Technologies Used
-
-Python
-
-Jupyter Notebook
-
-Scikit-learn
-
-Imbalanced-learn
-
-SHAP
-
-Pandas, NumPy
-
-Matplotlib, Seaborn
-
+* Web application deployment
+* Real-time health monitoring
+* Deep learning-based prediction models
+* Cloud integration
