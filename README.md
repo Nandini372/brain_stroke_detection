@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project predicts the risk of brain stroke using a hybrid machine learning model based on a stacking ensemble of Random Forest, Gradient Boosting, and Logistic Regression.
+This project predicts the risk of brain stroke using a hybrid machine learning model based on a stacking ensemble of Random Forest, Gradient Boosting using soft voting.
 
 The model uses SMOTE to address class imbalance and SHAP for model interpretability, helping identify the key factors influencing stroke risk predictions.
 
